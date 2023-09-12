@@ -63,6 +63,7 @@ const RNPhoneCodeModal = (props) => {
               style={{
                 ...styles.input,
                 ...{ borderColor: props.secondaryColor },
+                textAlign: "left",
               }}
             />
             {loading ? (
